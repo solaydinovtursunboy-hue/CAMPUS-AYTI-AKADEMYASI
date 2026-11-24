@@ -1,0 +1,6 @@
+{
+  "name": "Campus Ayti Academy",
+  "description": "Andijon viloyati, Oltinkoʻl tumanidagi zamonaviy IT va Robototexnika oʻquv markazi — Web Dasturlash, Arduino, LEGO WeDo va Scratch kurslari.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
