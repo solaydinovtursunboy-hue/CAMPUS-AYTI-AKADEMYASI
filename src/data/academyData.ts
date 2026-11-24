@@ -1,3 +1,8 @@
+import webDevImg from '../assets/images/course_web_dev_1795530646351.jpg';
+import arduinoImg from '../assets/images/course_arduino_robotics_1795530646283.jpg';
+import legoWedoImg from '../assets/images/course_lego_wedo_1795530647440.jpg';
+import scratchImg from '../assets/images/course_scratch_coding_1795530648086.jpg';
+
 export type CourseId = 'web-dev' | 'arduino' | 'lego-wedo' | 'scratch';
 
 export interface CourseItem {
@@ -46,7 +51,7 @@ export const COURSES: CourseItem[] = [
       'Kompyuter va telefon ekranlariga mos dizayn yigʻish',
       'Kodni toza va standartlar asosida yozish koʻnikmasi',
     ],
-    image: '/src/assets/images/course_web_dev_1795530646351.jpg',
+    image: webDevImg,
     imageAlt: 'Campus Ayti Academy Web Dasturlash dars xonasi va kod muhiti',
   },
   {
@@ -66,7 +71,7 @@ export const COURSES: CourseItem[] = [
       'Sxematexnika va elektronika zanjirlarini toʻgʻri ulash',
       'Tuman va viloyat robototexnika musobaqalariga tayyorgarlik',
     ],
-    image: '/src/assets/images/course_arduino_robotics_1795530646283.jpg',
+    image: arduinoImg,
     imageAlt: 'Arduino mikrokontrolleri, sensorlar va servo motor toʻplami',
   },
   {
@@ -86,7 +91,7 @@ export const COURSES: CourseItem[] = [
       'Har darsda bitta harakatlanuvchi robot loyihasini yakunlash',
       'Jamoaviy ishlash va texnik fikrini tushuntira olish koʻnikmasi',
     ],
-    image: '/src/assets/images/course_lego_wedo_1795530647440.jpg',
+    image: legoWedoImg,
     imageAlt: 'LEGO WeDo tishli uzatmalar va harakat sensori bilan yigʻilgan robot',
   },
   {
@@ -106,7 +111,7 @@ export const COURSES: CourseItem[] = [
       'Shartlar, sikllar va oʻzgaruvchilar kabi dasturlash tushunchalarini oʻzlashtirish',
       'Katta dasturlash tillariga (Python, Web) mustahkam poydevor qoʻyish',
     ],
-    image: '/src/assets/images/course_scratch_coding_1795530648086.jpg',
+    image: scratchImg,
     imageAlt: 'Scratch vizual bloklari va 2D oʻyin yaratish muhiti',
   },
 ];

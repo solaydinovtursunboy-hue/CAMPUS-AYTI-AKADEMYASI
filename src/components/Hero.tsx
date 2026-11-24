@@ -1,6 +1,7 @@
 import { useEffect, useState, type MouseEvent } from 'react';
 import { ArrowRight, Code2, Cpu, Blocks, Gamepad2, PhoneCall } from 'lucide-react';
 import { ACADEMY_INFO } from '../data/academyData';
+import heroLabImg from '../assets/images/hero_robotics_lab_1795530646218.jpg';
 
 interface HeroProps {
   onOpenRegistration: () => void;
@@ -176,7 +177,7 @@ export function Hero({ onOpenRegistration }: HeroProps) {
             <div className="relative w-full overflow-hidden rounded-2xl border border-slate-800/90 bg-[#0B1224] shadow-2xl">
               {!imgError ? (
                 <img
-                  src="/src/assets/images/hero_robotics_lab_1795530646218.jpg"
+                  src={heroLabImg}
                   alt="Campus Ayti Academy zamonaviy IT va robototexnika laboratoriyasi"
                   referrerPolicy="no-referrer"
                   onError={() => setImgError(true)}
